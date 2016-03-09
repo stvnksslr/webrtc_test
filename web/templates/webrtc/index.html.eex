@@ -1,0 +1,10 @@
+<div>
+  <button id="connect">Connect</button>
+  <button id="call">Call</button>
+  <button id="hangup">Hangup</button>
+</div>
+<br />
+<div>
+  <video id="localVideo" autoplay></video>
+  <video id="remoteVideo" autoplay></video>
+</div>

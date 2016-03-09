@@ -3,6 +3,7 @@ defmodule WebrtcTest.UserSocket do
 
   ## Channels
   # channel "rooms:*", WebrtcTest.RoomChannel
+  channel "call", WebrtcTest.WebrtcChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
